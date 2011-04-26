@@ -1,0 +1,2 @@
+GazeTracker.o: GazeTracker.cpp GazeTracker.h utils.h Point.h \
+ GaussianProcess.cpp

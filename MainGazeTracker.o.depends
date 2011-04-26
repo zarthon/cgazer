@@ -1,0 +1,5 @@
+MainGazeTracker.o: MainGazeTracker.cpp utils.h Point.h MainGazeTracker.h \
+ TrackingSystem.h PointTracker.h HeadTracker.h HeadCompensation.cpp \
+ LeastSquares.h EyeExtractor.h OutputMethods.h GazeTracker.h \
+ GaussianProcess.cpp Calibrator.h Containers.h GraphicalPointer.h \
+ FeatureDetector.h

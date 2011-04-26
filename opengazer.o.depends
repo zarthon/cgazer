@@ -1,0 +1,5 @@
+opengazer.o: opengazer.cpp GazeTrackerGtk.h GazeArea.h MainGazeTracker.h \
+ utils.h Point.h TrackingSystem.h PointTracker.h HeadTracker.h \
+ HeadCompensation.cpp LeastSquares.h EyeExtractor.h OutputMethods.h \
+ GazeTracker.h GaussianProcess.cpp Calibrator.h Containers.h \
+ GraphicalPointer.h FeatureDetector.h GtkStore.h

@@ -1,0 +1,2 @@
+GtkStore.o: GtkStore.cpp GtkStore.h OutputMethods.h utils.h Point.h \
+ GazeTracker.h GaussianProcess.cpp GraphicalPointer.h Containers.h

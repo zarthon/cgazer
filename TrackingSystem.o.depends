@@ -1,0 +1,4 @@
+TrackingSystem.o: TrackingSystem.cpp TrackingSystem.h utils.h Point.h \
+ PointTracker.h HeadTracker.h HeadCompensation.cpp LeastSquares.h \
+ EyeExtractor.h OutputMethods.h GazeTracker.h GaussianProcess.cpp \
+ FeatureDetector.h BlinkDetector.h

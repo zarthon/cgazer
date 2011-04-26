@@ -1,0 +1,1 @@
+FaceDetector.o: FaceDetector.cpp FaceDetector.h utils.h Point.h

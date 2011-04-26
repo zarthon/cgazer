@@ -1,0 +1,2 @@
+HeadTracker.o: HeadTracker.cpp HeadTracker.h PointTracker.h utils.h \
+ Point.h FMatrixAffineCompute.cpp

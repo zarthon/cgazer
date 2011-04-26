@@ -1,0 +1,4 @@
+Calibrator.o: Calibrator.cpp Calibrator.h utils.h Point.h \
+ TrackingSystem.h PointTracker.h HeadTracker.h HeadCompensation.cpp \
+ LeastSquares.h EyeExtractor.h OutputMethods.h GazeTracker.h \
+ GaussianProcess.cpp Containers.h GraphicalPointer.h FeatureDetector.h

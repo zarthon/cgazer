@@ -1,0 +1,2 @@
+GraphicalPointer.o: GraphicalPointer.cpp GraphicalPointer.h Containers.h \
+ utils.h Point.h

@@ -1,0 +1,1 @@
+FeatureDetector.o: FeatureDetector.cpp FeatureDetector.h utils.h Point.h

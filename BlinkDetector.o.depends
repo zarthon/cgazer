@@ -1,0 +1,2 @@
+BlinkDetector.o: BlinkDetector.cpp BlinkDetector.h utils.h Point.h \
+ EyeExtractor.h PointTracker.h

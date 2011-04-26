@@ -1,0 +1,2 @@
+PointTracker.o: PointTracker.cpp PointTracker.h utils.h Point.h \
+ FaceDetector.h
