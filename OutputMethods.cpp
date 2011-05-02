@@ -102,7 +102,7 @@ void StreamStore::store(const TrackerOutput& output) {
             string str( "LEFT\n\r");
             char *c;
             c = new char[str.size()+1];
-            cout <<"SHM -> "<<*shm;
+            //cout <<"SHM -> "<<*shm;
             if(*shm == '*' ){
                 char*t;
                 t = shm;
@@ -125,7 +125,7 @@ void StreamStore::store(const TrackerOutput& output) {
             string str( "RIGHT\n\r");
             char *c;
             c = new char[str.size()+1];
-            cout <<"SHM -> "<<*shm;
+            //cout <<"SHM -> "<<*shm;
             if(*shm == '*' ){
                 char*t;
                 t = shm;
@@ -149,7 +149,7 @@ void StreamStore::store(const TrackerOutput& output) {
             string str( "UP\n\r");
             char *c;
             c = new char[str.size()+1];
-            cout <<"SHM -> "<<*shm;
+            //cout <<"SHM -> "<<*shm;
             if(*shm == '*' ){
                 char*t;
                 t = shm;
