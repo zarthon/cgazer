@@ -99,7 +99,7 @@ void StreamStore::store(const TrackerOutput& output) {
             UP_COUNT=0;
             DOWN_COUNT=0;
         	stream << (int)output.targetid << "LEFT" <<endl;
-            string str( "LEFT\n");
+            string str( "LEFT\n\r");
             char *c;
             c = new char[str.size()+1];
             cout <<"SHM -> "<<*shm;
@@ -122,7 +122,7 @@ void StreamStore::store(const TrackerOutput& output) {
             UP_COUNT=0;
             DOWN_COUNT=0;  
         	stream << (int)output.targetid << "RIGHT"<< endl;
-            string str( "RIGHT\n");
+            string str( "RIGHT\n\r");
             char *c;
             c = new char[str.size()+1];
             cout <<"SHM -> "<<*shm;
@@ -146,7 +146,7 @@ void StreamStore::store(const TrackerOutput& output) {
             UP_COUNT=0;
             DOWN_COUNT=0; 
         	stream << (int)output.targetid << "UP"<< endl;
-            string str( "UP\n");
+            string str( "UP\n\r");
             char *c;
             c = new char[str.size()+1];
             cout <<"SHM -> "<<*shm;
@@ -171,7 +171,7 @@ void StreamStore::store(const TrackerOutput& output) {
             UP_COUNT=0;
             DOWN_COUNT=0;
         	stream << (int)output.targetid << "DOWN"<< endl;
-            string str( "DOWN\n");
+            string str( "DOWN\n\r");
             char *c;
             c = new char[str.size()+1];
             if(*shm == '*' ){
